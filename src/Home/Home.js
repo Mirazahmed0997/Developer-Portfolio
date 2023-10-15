@@ -7,6 +7,7 @@ import Technoligies from './Technoligies';
 import Academic from './Academic';
 import Details from './Details';
 import Footer from './Footer';
+import Experience from './Experience';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Technoligies></Technoligies>
             <Academic></Academic>
             {/* <Details></Details> */}
+            <Experience></Experience>
             <Footer></Footer>
         </div>
     );
