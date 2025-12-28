@@ -8,18 +8,23 @@ import Academic from './Academic';
 import Details from './Details';
 import Footer from './Footer';
 import Experience from './Experience';
+import HeroSection from './HeroSection';
+import Skills from './Skills';
+import Projects from './Projects';
+import Contact from './Contact';
+import AcademicHistory from './AcademicHistory';
 
 
 const Home = () => {
     return (
-        <div style={{ background: `url(${background})` }}>
-            <Header></Header>
-            <Intro></Intro>
+        <div >
+            <HeroSection></HeroSection>
             <About></About>
-            <Technoligies></Technoligies>
-            <Academic></Academic>
-            {/* <Details></Details> */}
+            <Skills></Skills>
+            <AcademicHistory></AcademicHistory>
             <Experience></Experience>
+            <Projects></Projects>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );
